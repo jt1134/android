@@ -36,7 +36,7 @@
   <project path="device/samsung/p4-common" name="CyanogenMod/android_device_samsung_p4-common" />
   <project path="device/samsung/toro" name="jt1134/android_device_samsung_toro" />
   <project path="device/samsung/tuna" name="jt1134/android_device_samsung_tuna" />
-  <project path="device/samsung/vzwtab" name="jt1134/android_device_samsung_vzwtab" />
+  <project path="device/samsung/galaxytab7c" name="jt1134/android_device_samsung_galaxytab7c" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -200,7 +200,6 @@
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
