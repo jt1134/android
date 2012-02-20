@@ -247,7 +247,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
+  <project path="prebuilt" name="jt1134/android_prebuilt" />
   <project path="vendor/cm" name="jt1134/android_vendor_cm" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
@@ -265,5 +265,7 @@
   <project path="kernel/samsung/aries" name="teamhacksung/samsung-kernel-aries" revision="android-samsung-3.0-ics" />
   <project path="kernel/samsung/tuna" name="jt1134/android_kernel_samsung_tuna" revision="android-omap-tuna-3.0" />
   <project path="kernel/samsung/galaxytab-cdma" name="jt1134/android_kernel_samsung_galaxytab-cdma" />
+
+  <project path="make_miui" name="jt1134/make_miui" />
 
 </manifest>
