@@ -263,6 +263,7 @@
   <project path="vendor/samsung" name="jt1134/proprietary_vendor_samsung" />
 
   <project path="kernel/samsung/aries" name="teamhacksung/samsung-kernel-aries" revision="android-samsung-3.0-ics" />
+  <project path="kernel/samsung/charge" name="jt1134/android_kernel_samsung_charge" />
   <project path="kernel/samsung/tuna" name="jt1134/android_kernel_samsung_tuna" revision="android-omap-tuna-3.0" />
   <project path="kernel/samsung/galaxytab-cdma" name="jt1134/android_kernel_samsung_galaxytab-cdma" revision="mtd" />
 
