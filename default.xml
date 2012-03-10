@@ -33,6 +33,7 @@
   <project path="device/samsung/aries-common" name="teamhacksung/android_device_samsung_aries-common" />
   <project path="device/samsung/charge" name="jt1134/android_device_samsung_charge" />
   <project path="device/samsung/fascinatemtd" name="teamhacksung/android_device_samsung_fascinatemtd" />
+  <project path="device/samsung/infuse4g" name="jt1134/android_device_samsung_infuse4g" />
   <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
   <project path="device/samsung/p4-common" name="CyanogenMod/android_device_samsung_p4-common" />
   <project path="device/samsung/toro" name="jt1134/android_device_samsung_toro" />
@@ -266,6 +267,7 @@
 
   <project path="kernel/samsung/aries" name="teamhacksung/samsung-kernel-aries" revision="android-samsung-3.0-ics" />
   <project path="kernel/samsung/charge" name="jt1134/android_kernel_samsung_charge" />
+  <project path="kernel/samsung/dempsey" name="jt1134/android_kernel_samsung_dempsey" />
   <project path="kernel/samsung/tuna" name="jt1134/android_kernel_samsung_tuna" revision="android-omap-tuna-3.0" />
   <project path="kernel/samsung/galaxytab-cdma" name="jt1134/android_kernel_samsung_galaxytab-cdma" revision="mtd" />
 
