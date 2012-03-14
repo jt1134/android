@@ -32,9 +32,10 @@
   <project path="device/samsung/fascinatemtd" name="teamhacksung/android_device_samsung_fascinatemtd" />
   <project path="device/samsung/infuse4g" name="jt1134/android_device_samsung_infuse4g" />
   <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
+  <project path="device/samsung/p1c" name="jt1134/android_device_samsung_p1c" />
+  <project path="device/samsung/p1-common" name="jt1134/android_device_samsung_p1-common" />
   <project path="device/samsung/toro" name="jt1134/android_device_samsung_toro" />
   <project path="device/samsung/tuna" name="jt1134/android_device_samsung_tuna" />
-  <project path="device/samsung/galaxytab7c" name="jt1134/android_device_samsung_galaxytab7c" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
