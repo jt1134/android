@@ -32,6 +32,7 @@
   <project path="device/samsung/fascinatemtd" name="teamhacksung/android_device_samsung_fascinatemtd" />
   <project path="device/samsung/infuse4g" name="jt1134/android_device_samsung_infuse4g" />
   <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
+  <project path="device/samsung/p1" name="sgt7/android_device_samsung_p1" />
   <project path="device/samsung/p1c" name="jt1134/android_device_samsung_p1c" />
   <project path="device/samsung/p1-common" name="jt1134/android_device_samsung_p1-common" />
   <project path="device/samsung/toro" name="jt1134/android_device_samsung_toro" />
