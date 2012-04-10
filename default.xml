@@ -27,7 +27,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
-  <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" />
+  <project path="device/samsung/aries-common" name="jt1134/android_device_samsung_aries-common" />
   <project path="device/samsung/charge" name="jt1134/android_device_samsung_charge" />
   <project path="device/samsung/fascinatemtd" name="teamhacksung/android_device_samsung_fascinatemtd" />
   <project path="device/samsung/infuse4g" name="jt1134/android_device_samsung_infuse4g" />
