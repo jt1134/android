@@ -31,12 +31,6 @@
   <project path="device/samsung/charge" name="jt1134/android_device_samsung_charge" />
   <project path="device/samsung/fascinatemtd" name="teamhacksung/android_device_samsung_fascinatemtd" />
   <project path="device/samsung/infuse4g" name="jt1134/android_device_samsung_infuse4g" />
-  <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
-  <project path="device/samsung/p1" name="CyanogenMod/android_device_samsung_p1" />
-  <project path="device/samsung/p1c" name="CyanogenMod/android_device_samsung_p1c" />
-  <project path="device/samsung/p1-common" name="CyanogenMod/android_device_samsung_p1-common" />
-  <project path="device/samsung/toro" name="jt1134/android_device_samsung_toro" />
-  <project path="device/samsung/tuna" name="jt1134/android_device_samsung_tuna" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
@@ -266,8 +260,6 @@
   <project path="kernel/samsung/aries" name="CyanogenMod/android_kernel_samsung_aries" revision="android-samsung-3.0-ics" />
   <project path="kernel/samsung/charge" name="jt1134/android_kernel_samsung_charge" />
   <project path="kernel/samsung/dempsey" name="jt1134/android_kernel_samsung_dempsey" />
-  <project path="kernel/samsung/tuna" name="jt1134/android_kernel_samsung_tuna" />
-  <project path="kernel/samsung/p1c" name="CyanogenMod/android_kernel_samsung_galaxytab-cdma" />
 
   <project path="make_miui" name="jt1134/make_miui" revision="mtd" />
 
