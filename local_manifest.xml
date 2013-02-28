@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="jt1134/android_device_samsung_p1c"		path="device/samsung/p1c"		revision="myjb-next" />
+  <project name="jt1134/android_device_samsung_p1-common"	path="device/samsung/p1-common"		revision="myjb-next" />
+  <project name="jt1134/android_kernel_samsung_galaxytab-cdma"	path="kernel/samsung/p1c"		revision="myjb-next" />
+  <project name="jt1134/android_device_samsung_fascinatemtd"	path="device/samsung/fascinatemtd"	revision="myjb-next" />
+  <project name="jt1134/android_device_samsung_aries-common"	path="device/samsung/aries-common"	revision="myjb-next" />
+  <project name="jt1134/android_kernel_samsung_aries"		path="kernel/samsung/aries"		revision="myjb-next" />
+  <project name="CyanogenMod/android_hardware_samsung"		path="hardware/samsung"			revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung"		path="vendor/samsung"			revision="cm-10.1" />
+</manifest>
