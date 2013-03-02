@@ -21,6 +21,7 @@
   </project>
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
+  <project path="android" name="jt1134/android" revision="myjb-next" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="jt1134/Team-Win-Recovery-Project" revision="twrp2.4" />
