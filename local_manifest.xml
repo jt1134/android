@@ -38,7 +38,6 @@
   <remove-project name="CyanogenMod/android_packages_apps_Music" />
   <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
   <remove-project name="CyanogenMod/android_packages_apps_Protips" />
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_packages_apps_SmartCardService" />
   <remove-project name="CyanogenMod/android_packages_apps_SpareParts" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
@@ -57,7 +56,6 @@
   <project path="android" name="jt1134/android" revision="myjb-next" />
   <project path="bootable/recovery" name="jt1134/Team-Win-Recovery-Project" revision="twrp2.4" />
   <project path="frameworks/base" name="jt1134/android_frameworks_base" revision="myjb-next" />
-  <project path="packages/apps/Settings" name="jt1134/android_packages_apps_Settings" />
 
   <!-- Devices and their dependent repositories -->
   <project name="jt1134/android_device_samsung_p1c"		path="device/samsung/p1c"		revision="myjb-next" />
