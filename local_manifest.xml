@@ -67,4 +67,8 @@
   <project name="jt1134/android_kernel_samsung_aries"		path="kernel/samsung/aries"		revision="myjb-next" />
   <project name="jt1134/android_hardware_samsung"		path="hardware/samsung"			revision="cm-10.1" />
   <project name="TheMuppets/proprietary_vendor_samsung"		path="vendor/samsung"			revision="cm-10.1" />
+
+  <!-- Extras -->
+  <project name="jruesga/android_external_unrar"	path="external/unrar"	revision="cm-10.1" />
+  <project name="jruesga/android_external_zip"		path="external/zip"	revision="cm-10.1" />
 </manifest>
