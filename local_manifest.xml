@@ -54,7 +54,7 @@
 
   <!-- My forked repositories -->
   <project path="android" name="jt1134/android" revision="myjb-next" />
-  <project path="bootable/recovery" name="jt1134/Team-Win-Recovery-Project" revision="twrp2.4" />
+  <project path="bootable/recovery" name="jt1134/Team-Win-Recovery-Project" revision="twrp2.5" />
   <project path="frameworks/base" name="jt1134/android_frameworks_base" revision="myjb-next" />
 
   <!-- Devices and their dependent repositories -->
