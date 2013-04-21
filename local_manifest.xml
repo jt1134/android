@@ -2,7 +2,9 @@
 <manifest>
   <!-- Remove unwanted, and overridden repositories from CM/AOSP -->
   <remove-project name="CyanogenMod/android" />
+  <remove-project name="CyanogenMod/android_bionic" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_build" />
   <remove-project name="platform/cts" />
   <remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <remove-project name="CyanogenMod/android_device_generic_armv7-a" />
@@ -54,8 +56,12 @@
 
   <!-- My forked repositories -->
   <project path="android" name="jt1134/android" revision="myjb-next" />
+  <project path="bionic" name="jt1134/android_bionic" revision="myjb-next"/>
   <project path="bootable/recovery" name="jt1134/Team-Win-Recovery-Project" revision="twrp2.5" />
+  <project path="build" name="jt1134/android_build" revision="myjb-next"/>
   <project path="frameworks/base" name="jt1134/android_frameworks_base" revision="myjb-next" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" remote="aosp" revision="master" />
 
   <!-- Devices and their dependent repositories -->
   <project name="jt1134/shit"					path="scripts"				revision="master" />
