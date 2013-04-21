@@ -34,9 +34,11 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_sensors" />
   <remove-project name="CyanogenMod/android_hardware_qcom_wlan" />
   <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+  <remove-project name="CyanogenMod/android_packages_apps_DeskClock" />
   <remove-project name="CyanogenMod/android_packages_apps_Gallery" />
   <remove-project name="CyanogenMod/android_packages_apps_Launcher2" />
   <remove-project name="CyanogenMod/android_packages_apps_LegacyCamera" />
+  <remove-project name="CyanogenMod/android_packages_apps_Mms" />
   <remove-project name="CyanogenMod/android_packages_apps_Music" />
   <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
   <remove-project name="CyanogenMod/android_packages_apps_Protips" />
@@ -55,13 +57,13 @@
   <remove-project name="CyanogenMod/android_vendor_qcom_opensource_v8" />
 
   <!-- My forked repositories -->
-  <project path="android" name="jt1134/android" revision="myjb-next" />
-  <project path="bionic" name="jt1134/android_bionic" revision="myjb-next"/>
-  <project path="bootable/recovery" name="jt1134/Team-Win-Recovery-Project" revision="twrp2.5" />
-  <project path="build" name="jt1134/android_build" revision="myjb-next"/>
-  <project path="frameworks/base" name="jt1134/android_frameworks_base" revision="myjb-next" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" remote="aosp" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" remote="aosp" revision="master" />
+  <project path="android"			name="jt1134/android"				revision="myjb-next" />
+  <project path="bionic"			name="jt1134/android_bionic"			revision="myjb-next"/>
+  <project path="bootable/recovery"		name="jt1134/Team-Win-Recovery-Project"		revision="twrp2.5" />
+  <project path="build"				name="jt1134/android_build"			revision="myjb-next"/>
+  <project path="frameworks/base"		name="jt1134/android_frameworks_base"		revision="myjb-next" />
+  <project path="packages/apps/DeskClock"	name="jt1134/android_packages_apps_DeskClock"	revision="myjb-next" />
+  <project path="packages/apps/Mms"		name="jt1134/android_packages_apps_Mms"		revision="myjb-next" />
 
   <!-- Devices and their dependent repositories -->
   <project name="jt1134/shit"					path="scripts"				revision="master" />
@@ -77,4 +79,7 @@
   <!-- Extras -->
   <project name="jruesga/android_external_unrar"	path="external/unrar"	revision="cm-10.1" />
   <project name="jruesga/android_external_zip"		path="external/zip"	revision="cm-10.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" remote="aosp" revision="master" />
+
 </manifest>
