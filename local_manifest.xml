@@ -17,8 +17,11 @@
   <remove-project name="CyanogenMod/android_device_sample" />
   <remove-project name="CyanogenMod/android_device_ti_panda" />
   <remove-project name="platform/docs/source.android.com" />
+  <remove-project name="CyanogenMod/android_external_oprofile" />
+  <remove-project name="CyanogenMod/android_external_v8" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_frameworks_rs" />
   <remove-project name="CyanogenMod/android_hardware_msm7k" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
@@ -53,6 +56,7 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+  <remove-project name="CyanogenMod/android_system_security" />
   <remove-project name="platform/tools/motodev" />
   <remove-project name="CyanogenMod/android_vendor_qcom_opensource_v8" />
 
@@ -61,9 +65,13 @@
   <project path="bionic"			name="jt1134/android_bionic"			revision="myjb-next"/>
   <project path="bootable/recovery"		name="jt1134/Team-Win-Recovery-Project"		revision="twrp2.5" />
   <project path="build"				name="jt1134/android_build"			revision="myjb-next"/>
+  <project path="external/oprofile"		name="jt1134/android_external_oprofile"		revision="myjb-next" />
+  <project path="external/v8"			name="jt1134/android_external_v8"		revision="myjb-next" />
   <project path="frameworks/base"		name="jt1134/android_frameworks_base"		revision="myjb-next" />
+  <project path="frameworks/rs"			name="jt1134/android_frameworks_rs"		revision="myjb-next" />
   <project path="packages/apps/DeskClock"	name="jt1134/android_packages_apps_DeskClock"	revision="myjb-next" />
   <project path="packages/apps/Mms"		name="jt1134/android_packages_apps_Mms"		revision="myjb-next" />
+  <project path="system/security"		name="jt1134/android_system_security"		revision="myjb-next" />
 
   <!-- Devices and their dependent repositories -->
   <project name="jt1134/shit"					path="scripts"				revision="master" />
