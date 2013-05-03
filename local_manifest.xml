@@ -48,6 +48,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_Music" />
   <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
   <remove-project name="CyanogenMod/android_packages_apps_Protips" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_packages_apps_SmartCardService" />
   <remove-project name="CyanogenMod/android_packages_apps_SpareParts" />
   <remove-project name="CyanogenMod/android_packages_apps_VideoEditor" />
@@ -77,6 +78,7 @@
   <project path="hardware/ril"			name="jt1134/android_hardware_ril"		revision="myjb-next" />
   <project path="packages/apps/DeskClock"	name="jt1134/android_packages_apps_DeskClock"	revision="myjb-next" />
   <project path="packages/apps/Mms"		name="jt1134/android_packages_apps_Mms"		revision="myjb-next" />
+  <project path="packages/apps/Settings"	name="jt1134/android_packages_apps_Settings"	revision="myjb-next" />
   <project path="system/security"		name="jt1134/android_system_security"		revision="myjb-next" />
 
   <!-- Devices and their dependent repositories -->
