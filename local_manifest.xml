@@ -87,7 +87,7 @@
   <!-- My forked repositories -->
   <project path="android"			name="jt1134/android"				revision="myjb-next" />
   <project path="bionic"			name="jt1134/android_bionic"			revision="myjb-next"/>
-  <project path="bootable/recovery"		name="TeamWin/Team-Win-Recovery-Project"	revision="twrp2.5" />
+  <project path="bootable/recovery"		name="jt1134/Team-Win-Recovery-Project"		revision="twrp2.5" />
   <project path="build"				name="jt1134/android_build"			revision="myjb-next"/>
   <project path="external/chromium"		name="jt1134/android_external_chromium"		revision="myjb-next" />
   <project path="external/dnsmasq"		name="jt1134/android_external_dnsmasq"		revision="myjb-next" />
