@@ -38,6 +38,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_wlan" />
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_DeskClock" />
   <remove-project name="CyanogenMod/android_packages_apps_Email" />
   <remove-project name="CyanogenMod/android_packages_apps_Exchange" />
