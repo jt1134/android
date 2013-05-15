@@ -17,11 +17,27 @@
   <remove-project name="CyanogenMod/android_device_sample" />
   <remove-project name="CyanogenMod/android_device_ti_panda" />
   <remove-project name="platform/docs/source.android.com" />
+  <remove-project name="CyanogenMod/android_external_chromium" />
+  <remove-project name="CyanogenMod/android_external_dnsmasq" />
+  <remove-project name="CyanogenMod/android_external_e2fsprogs" />
+  <remove-project name="CyanogenMod/android_external_lsof" />
+  <remove-project name="CyanogenMod/android_external_openssl" />
+  <remove-project name="CyanogenMod/android_external_openssh" />
+  <remove-project name="CyanogenMod/android_external_openvpn" />
   <remove-project name="CyanogenMod/android_external_oprofile" />
+  <remove-project name="CyanogenMod/android_external_ping" />
+  <remove-project name="CyanogenMod/android_external_skia" />
+  <remove-project name="CyanogenMod/android_external_stlport" />
   <remove-project name="CyanogenMod/android_external_v8" />
+  <remove-project name="CyanogenMod/android_external_webkit" />
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_frameworks_ex" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_frameworks_rs" />
+  <remove-project name="CyanogenMod/android_frameworks_wilhelm" />
   <remove-project name="CyanogenMod/android_hardware_msm7k" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
@@ -38,6 +54,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_wlan" />
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+  <remove-project name="CyanogenMod/android_libcore" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_DeskClock" />
   <remove-project name="CyanogenMod/android_packages_apps_Email" />
@@ -72,11 +89,28 @@
   <project path="bionic"			name="jt1134/android_bionic"			revision="myjb-next"/>
   <project path="bootable/recovery"		name="TeamWin/Team-Win-Recovery-Project"	revision="twrp2.5" />
   <project path="build"				name="jt1134/android_build"			revision="myjb-next"/>
+  <project path="external/chromium"		name="jt1134/android_external_chromium"		revision="myjb-next" />
+  <project path="external/dnsmasq"		name="jt1134/android_external_dnsmasq"		revision="myjb-next" />
+  <project path="external/e2fsprogs"		name="jt1134/android_external_e2fsprogs"	revision="myjb-next" />
+  <project path="external/lsof"			name="jt1134/android_external_lsof"		revision="myjb-next" />
+  <project path="external/openssl"		name="jt1134/android_external_openssl"		revision="myjb-next" />
+  <project path="external/openssh"		name="jt1134/android_external_openssh"		revision="myjb-next" />
+  <project path="external/openvpn"		name="jt1134/android_external_openvpn"		revision="myjb-next" />
   <project path="external/oprofile"		name="jt1134/android_external_oprofile"		revision="myjb-next" />
+  <project path="external/ping"			name="jt1134/android_external_ping"		revision="myjb-next" />
+  <project path="external/skia"			name="jt1134/android_external_skia"		revision="myjb-next" />
+  <project path="external/stlport"		name="jt1134/android_external_stlport"		revision="myjb-next" />
   <project path="external/v8"			name="jt1134/android_external_v8"		revision="myjb-next" />
+  <project path="external/webkit"		name="jt1134/android_external_webkit"		revision="myjb-next" />
+  <project path="external/wpa_supplicant_8"	name="jt1134/android_external_wpa_supplicant_8"	revision="myjb-next" />
+  <project path="frameworks/av"			name="jt1134/android_frameworks_av"		revision="myjb-next" />
   <project path="frameworks/base"		name="jt1134/android_frameworks_base"		revision="myjb-next" />
+  <project path="frameworks/ex"			name="jt1134/android_frameworks_ex"		revision="myjb-next" />
+  <project path="frameworks/native"		name="jt1134/android_frameworks_native"		revision="myjb-next" />
   <project path="frameworks/rs"			name="jt1134/android_frameworks_rs"		revision="myjb-next" />
+  <project path="frameworks/wilhelm"		name="jt1134/android_frameworks_wilhelm"	revision="myjb-next" />
   <project path="hardware/ril"			name="jt1134/android_hardware_ril"		revision="myjb-next" />
+  <project path="libcore"			name="jt1134/android_libcore"			revision="myjb-next" />
   <project path="packages/apps/DeskClock"	name="jt1134/android_packages_apps_DeskClock"	revision="myjb-next" />
   <project path="packages/apps/Mms"		name="jt1134/android_packages_apps_Mms"		revision="myjb-next" />
   <project path="packages/apps/Settings"	name="jt1134/android_packages_apps_Settings"	revision="myjb-next" />
