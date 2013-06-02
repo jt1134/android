@@ -79,6 +79,7 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+  <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_system_security" />
   <remove-project name="platform/tools/motodev" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
@@ -114,6 +115,7 @@
   <project path="packages/apps/DeskClock"	name="jt1134/android_packages_apps_DeskClock"	revision="myjb-next" />
   <project path="packages/apps/Mms"		name="jt1134/android_packages_apps_Mms"		revision="myjb-next" />
   <project path="packages/apps/Settings"	name="jt1134/android_packages_apps_Settings"	revision="myjb-next" />
+  <project path="system/core"			name="jt1134/android_system_core"		revision="myjb-next" />
   <project path="system/security"		name="jt1134/android_system_security"		revision="myjb-next" />
 
   <!-- Devices and their dependent repositories -->
