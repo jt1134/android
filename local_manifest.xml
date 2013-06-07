@@ -36,6 +36,7 @@
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_ex" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="CyanogenMod/android_frameworks_rs" />
   <remove-project name="CyanogenMod/android_frameworks_wilhelm" />
   <remove-project name="CyanogenMod/android_hardware_msm7k" />
@@ -108,6 +109,7 @@
   <project path="frameworks/base"		name="jt1134/android_frameworks_base"		revision="myjb-next" />
   <project path="frameworks/ex"			name="jt1134/android_frameworks_ex"		revision="myjb-next" />
   <project path="frameworks/native"		name="jt1134/android_frameworks_native"		revision="myjb-next" />
+  <project path="frameworks/opt/telephony"	name="jt1134/android_frameworks_opt_telephony"	revision="myjb-next" />
   <project path="frameworks/rs"			name="jt1134/android_frameworks_rs"		revision="myjb-next" />
   <project path="frameworks/wilhelm"		name="jt1134/android_frameworks_wilhelm"	revision="myjb-next" />
   <project path="hardware/ril"			name="jt1134/android_hardware_ril"		revision="myjb-next" />
