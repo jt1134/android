@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <!-- Remove unwanted, and overridden repositories from CM/AOSP -->
   <remove-project name="CyanogenMod/android" />
   <remove-project name="CyanogenMod/android_bionic" />
@@ -87,49 +90,52 @@
   <remove-project name="CyanogenMod/android_vendor_qcom_opensource_v8" />
 
   <!-- My forked repositories -->
-  <project path="android"			name="jt1134/android"				revision="myjb-next" />
-  <project path="bionic"			name="jt1134/android_bionic"			revision="myjb-next"/>
-  <project path="bootable/recovery"		name="jt1134/Team-Win-Recovery-Project"		revision="twrp2.5" />
-  <project path="build"				name="jt1134/android_build"			revision="myjb-next"/>
-  <project path="external/chromium"		name="jt1134/android_external_chromium"		revision="myjb-next" />
-  <project path="external/dnsmasq"		name="jt1134/android_external_dnsmasq"		revision="myjb-next" />
-  <project path="external/e2fsprogs"		name="jt1134/android_external_e2fsprogs"	revision="myjb-next" />
-  <project path="external/lsof"			name="jt1134/android_external_lsof"		revision="myjb-next" />
-  <project path="external/openssl"		name="jt1134/android_external_openssl"		revision="myjb-next" />
-  <project path="external/openssh"		name="jt1134/android_external_openssh"		revision="myjb-next" />
-  <project path="external/openvpn"		name="jt1134/android_external_openvpn"		revision="myjb-next" />
-  <project path="external/oprofile"		name="jt1134/android_external_oprofile"		revision="myjb-next" />
-  <project path="external/ping"			name="jt1134/android_external_ping"		revision="myjb-next" />
-  <project path="external/skia"			name="jt1134/android_external_skia"		revision="myjb-next" />
-  <project path="external/stlport"		name="jt1134/android_external_stlport"		revision="myjb-next" />
-  <project path="external/v8"			name="jt1134/android_external_v8"		revision="myjb-next" />
-  <project path="external/webkit"		name="jt1134/android_external_webkit"		revision="myjb-next" />
-  <project path="external/wpa_supplicant_8"	name="jt1134/android_external_wpa_supplicant_8"	revision="myjb-next" />
-  <project path="frameworks/av"			name="jt1134/android_frameworks_av"		revision="myjb-next" />
-  <project path="frameworks/base"		name="jt1134/android_frameworks_base"		revision="myjb-next" />
-  <project path="frameworks/ex"			name="jt1134/android_frameworks_ex"		revision="myjb-next" />
-  <project path="frameworks/native"		name="jt1134/android_frameworks_native"		revision="myjb-next" />
-  <project path="frameworks/opt/telephony"	name="jt1134/android_frameworks_opt_telephony"	revision="myjb-next" />
-  <project path="frameworks/rs"			name="jt1134/android_frameworks_rs"		revision="myjb-next" />
-  <project path="frameworks/wilhelm"		name="jt1134/android_frameworks_wilhelm"	revision="myjb-next" />
-  <project path="hardware/ril"			name="jt1134/android_hardware_ril"		revision="myjb-next" />
-  <project path="libcore"			name="jt1134/android_libcore"			revision="myjb-next" />
-  <project path="packages/apps/DeskClock"	name="jt1134/android_packages_apps_DeskClock"	revision="myjb-next" />
-  <project path="packages/apps/Mms"		name="jt1134/android_packages_apps_Mms"		revision="myjb-next" />
-  <project path="packages/apps/Settings"	name="jt1134/android_packages_apps_Settings"	revision="myjb-next" />
-  <project path="system/core"			name="jt1134/android_system_core"		revision="myjb-next" />
-  <project path="system/security"		name="jt1134/android_system_security"		revision="myjb-next" />
+  <project path="build" name="jt1134/android_build" revision="myjb-next" remote="private" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="android"			name="jt1134/android"				revision="myjb-next"	remote="private" />
+  <project path="bionic"			name="jt1134/android_bionic"			revision="myjb-next"	remote="private" />
+  <project path="bootable/recovery"		name="jt1134/Team-Win-Recovery-Project"		revision="twrp2.5"	remote="private" />
+  <project path="external/chromium"		name="jt1134/android_external_chromium"		revision="myjb-next"	remote="private" />
+  <project path="external/dnsmasq"		name="jt1134/android_external_dnsmasq"		revision="myjb-next"	remote="private" />
+  <project path="external/e2fsprogs"		name="jt1134/android_external_e2fsprogs"	revision="myjb-next"	remote="private" />
+  <project path="external/lsof"			name="jt1134/android_external_lsof"		revision="myjb-next"	remote="private" />
+  <project path="external/openssl"		name="jt1134/android_external_openssl"		revision="myjb-next"	remote="private" />
+  <project path="external/openssh"		name="jt1134/android_external_openssh"		revision="myjb-next"	remote="private" />
+  <project path="external/openvpn"		name="jt1134/android_external_openvpn"		revision="myjb-next"	remote="private" />
+  <project path="external/oprofile"		name="jt1134/android_external_oprofile"		revision="myjb-next"	remote="private" />
+  <project path="external/ping"			name="jt1134/android_external_ping"		revision="myjb-next"	remote="private" />
+  <project path="external/skia"			name="jt1134/android_external_skia"		revision="myjb-next"	remote="private" />
+  <project path="external/stlport"		name="jt1134/android_external_stlport"		revision="myjb-next"	remote="private" />
+  <project path="external/v8"			name="jt1134/android_external_v8"		revision="myjb-next"	remote="private" />
+  <project path="external/webkit"		name="jt1134/android_external_webkit"		revision="myjb-next"	remote="private" />
+  <project path="external/wpa_supplicant_8"	name="jt1134/android_external_wpa_supplicant_8"	revision="myjb-next"	remote="private" />
+  <project path="frameworks/av"			name="jt1134/android_frameworks_av"		revision="myjb-next"	remote="private" />
+  <project path="frameworks/base"		name="jt1134/android_frameworks_base"		revision="myjb-next"	remote="private" />
+  <project path="frameworks/ex"			name="jt1134/android_frameworks_ex"		revision="myjb-next"	remote="private" />
+  <project path="frameworks/native"		name="jt1134/android_frameworks_native"		revision="myjb-next"	remote="private" />
+  <project path="frameworks/opt/telephony"	name="jt1134/android_frameworks_opt_telephony"	revision="myjb-next"	remote="private" />
+  <project path="frameworks/rs"			name="jt1134/android_frameworks_rs"		revision="myjb-next"	remote="private" />
+  <project path="frameworks/wilhelm"		name="jt1134/android_frameworks_wilhelm"	revision="myjb-next"	remote="private" />
+  <project path="hardware/ril"			name="jt1134/android_hardware_ril"		revision="myjb-next"	remote="private" />
+  <project path="libcore"			name="jt1134/android_libcore"			revision="myjb-next"	remote="private" />
+  <project path="packages/apps/DeskClock"	name="jt1134/android_packages_apps_DeskClock"	revision="myjb-next"	remote="private" />
+  <project path="packages/apps/Mms"		name="jt1134/android_packages_apps_Mms"		revision="myjb-next"	remote="private" />
+  <project path="packages/apps/Settings"	name="jt1134/android_packages_apps_Settings"	revision="myjb-next"	remote="private" />
+  <project path="system/core"			name="jt1134/android_system_core"		revision="myjb-next"	remote="private" />
+  <project path="system/security"		name="jt1134/android_system_security"		revision="myjb-next"	remote="private" />
 
   <!-- Devices and their dependent repositories -->
-  <project name="jt1134/shit"					path="scripts"				revision="master" />
-  <project name="jt1134/android_device_samsung_p1c"		path="device/samsung/p1c"		revision="myjb-next" />
-  <project name="jt1134/android_device_samsung_p1-common"	path="device/samsung/p1-common"		revision="myjb-next" />
-  <project name="jt1134/android_kernel_samsung_galaxytab-cdma"	path="kernel/samsung/p1c"		revision="myjb-next" />
-  <project name="jt1134/android_device_samsung_fascinatemtd"	path="device/samsung/fascinatemtd"	revision="myjb-next" />
-  <project name="jt1134/android_device_samsung_aries-common"	path="device/samsung/aries-common"	revision="myjb-next" />
-  <project name="jt1134/android_kernel_samsung_aries"		path="kernel/samsung/aries"		revision="myjb-next" />
-  <project name="jt1134/android_hardware_samsung"		path="hardware/samsung"			revision="myjb-next" />
-  <project name="jt1134/android_vendor_cm"			path="vendor/cm"			revision="myjb-next" />
+  <project name="jt1134/shit"					path="scripts"				revision="master"	remote="private" />
+  <project name="jt1134/android_device_samsung_p1c"		path="device/samsung/p1c"		revision="myjb-next"	remote="private" />
+  <project name="jt1134/android_device_samsung_p1-common"	path="device/samsung/p1-common"		revision="myjb-next"	remote="private" />
+  <project name="jt1134/android_kernel_samsung_galaxytab-cdma"	path="kernel/samsung/p1c"		revision="myjb-next"	remote="private" />
+  <project name="jt1134/android_device_samsung_fascinatemtd"	path="device/samsung/fascinatemtd"	revision="myjb-next"	remote="private" />
+  <project name="jt1134/android_device_samsung_aries-common"	path="device/samsung/aries-common"	revision="myjb-next"	remote="private" />
+  <project name="jt1134/android_kernel_samsung_aries"		path="kernel/samsung/aries"		revision="myjb-next"	remote="private" />
+  <project name="jt1134/android_hardware_samsung"		path="hardware/samsung"			revision="myjb-next"	remote="private" />
+  <project name="jt1134/android_vendor_cm"			path="vendor/cm"			revision="myjb-next"	remote="private" />
   <project name="TheMuppets/proprietary_vendor_samsung"		path="vendor/samsung"			revision="cm-10.1" />
 
   <!-- Extras -->
