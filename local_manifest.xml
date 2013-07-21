@@ -6,9 +6,9 @@
   <!-- Remove unwanted, and overridden repositories from CM/AOSP -->
   <remove-project name="CyanogenMod/android" />
   <remove-project name="CyanogenMod/android_bionic" />
-  <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="platform/cts" />
+  <remove-project name="CyanogenMod/android_dalvik" />
   <remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <remove-project name="CyanogenMod/android_device_generic_armv7-a" />
   <remove-project name="CyanogenMod/android_device_generic_common" />
@@ -43,20 +43,6 @@
   <remove-project name="CyanogenMod/android_frameworks_rs" />
   <remove-project name="CyanogenMod/android_frameworks_wilhelm" />
   <remove-project name="CyanogenMod/android_hardware_msm7k" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_bt" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_camera" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_msm8960" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_power" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_sensors" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_wlan" />
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <remove-project name="CyanogenMod/android_libcore" />
@@ -97,7 +83,7 @@
 
   <project path="android"			name="jt1134/android"				revision="myjb-next"	remote="private" />
   <project path="bionic"			name="jt1134/android_bionic"			revision="myjb-next"	remote="private" />
-  <project path="bootable/recovery"		name="jt1134/Team-Win-Recovery-Project"		revision="twrp2.5"	remote="private" />
+  <project path="dalvik"			name="jt1134/android_dalvik"			revision="myjb-next"	remote="private" />
   <project path="external/chromium"		name="jt1134/android_external_chromium"		revision="myjb-next"	remote="private" />
   <project path="external/dnsmasq"		name="jt1134/android_external_dnsmasq"		revision="myjb-next"	remote="private" />
   <project path="external/e2fsprogs"		name="jt1134/android_external_e2fsprogs"	revision="myjb-next"	remote="private" />
@@ -129,15 +115,19 @@
 
   <!-- Devices and their dependent repositories -->
   <project name="jt1134/shit"					path="scripts"				revision="master"	remote="private" />
-  <project name="jt1134/android_device_samsung_p1c"		path="device/samsung/p1c"		revision="myjb-next"	remote="private" />
-  <project name="jt1134/android_device_samsung_p1-common"	path="device/samsung/p1-common"		revision="myjb-next"	remote="private" />
-  <project name="jt1134/android_kernel_samsung_galaxytab-cdma"	path="kernel/samsung/p1c"		revision="myjb-next"	remote="private" />
   <project name="jt1134/android_device_samsung_fascinatemtd"	path="device/samsung/fascinatemtd"	revision="myjb-next"	remote="private" />
   <project name="jt1134/android_device_samsung_aries-common"	path="device/samsung/aries-common"	revision="myjb-next"	remote="private" />
   <project name="jt1134/android_kernel_samsung_aries"		path="kernel/samsung/aries"		revision="myjb-next"	remote="private" />
   <project name="jt1134/android_hardware_samsung"		path="hardware/samsung"			revision="myjb-next"	remote="private" />
   <project name="jt1134/android_vendor_cm"			path="vendor/cm"			revision="myjb-next"	remote="private" />
-  <project name="TheMuppets/proprietary_vendor_samsung"		path="vendor/samsung"			revision="cm-10.1" />
+  <project name="jt1134/proprietary_vendor_samsung"		path="vendor/samsung"			revision="myjb-next"	remote="private" />
+
+  <project name="CyanogenMod/android_device_samsung_d2-common"		path="device/samsung/d2-common" />
+  <project name="CyanogenMod/android_device_samsung_msm8960-common"	path="device/samsung/msm8960-common" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common"	path="device/samsung/qcom-common" />
+  <project name="CyanogenMod/android_kernel_samsung_d2"			path="kernel/samsung/d2" />
+  <project name="jt1134/android_device_samsung_expressatt"		path="device/samsung/expressatt"	revision="master"	remote="private" />
+  <project name="jt1134/android_kernel_samsung_expressatt"		path="kernel/samsung/expressatt"	revision="cm-10.1"	remote="private" />
 
   <!-- Extras -->
   <project name="jruesga/android_external_unrar"	path="external/unrar"	revision="cm-10.1" />
