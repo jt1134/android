@@ -122,12 +122,11 @@
   <project name="jt1134/android_vendor_cm"			path="vendor/cm"			revision="myjb-next"	remote="private" />
   <project name="jt1134/proprietary_vendor_samsung"		path="vendor/samsung"			revision="myjb-next"	remote="private" />
 
-  <project name="CyanogenMod/android_device_samsung_d2-common"		path="device/samsung/d2-common" />
+  <project name="jt1134/android_device_samsung_d2-common"		path="device/samsung/d2-common"		revision="cm-10.1"	remote="private"/>
   <project name="CyanogenMod/android_device_samsung_msm8960-common"	path="device/samsung/msm8960-common" />
   <project name="CyanogenMod/android_device_samsung_qcom-common"	path="device/samsung/qcom-common" />
-  <project name="CyanogenMod/android_kernel_samsung_d2"			path="kernel/samsung/d2" />
+  <project name="jt1134/android_kernel_samsung_d2"			path="kernel/samsung/d2"	revision="express"	remote="private" />
   <project name="jt1134/android_device_samsung_expressatt"		path="device/samsung/expressatt"	revision="cm-10.1"	remote="private" />
-  <project name="jt1134/android_kernel_samsung_expressatt"		path="kernel/samsung/expressatt"	revision="master"	remote="private" />
 
   <!-- Extras -->
   <project name="jruesga/android_external_unrar"	path="external/unrar"	revision="cm-10.1" />
