@@ -1,137 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
-  <!-- Remove unwanted, and overridden repositories from CM/AOSP -->
-  <remove-project name="CyanogenMod/android" />
-  <remove-project name="CyanogenMod/android_bionic" />
-  <remove-project name="CyanogenMod/android_build" />
+  <remote fetch="ssh://git@github.com" name="private" />
   <remove-project name="platform/cts" />
-  <remove-project name="CyanogenMod/android_dalvik" />
+  <remove-project name="CyanogenMod/android" />
   <remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
-  <remove-project name="CyanogenMod/android_device_generic_armv7-a" />
   <remove-project name="CyanogenMod/android_device_generic_common" />
-  <remove-project name="CyanogenMod/android_device_generic_goldfish" />
   <remove-project name="CyanogenMod/android_device_generic_mips" />
   <remove-project name="CyanogenMod/android_device_generic_x86" />
   <remove-project name="CyanogenMod/android_device_google_accessory_arduino" />
   <remove-project name="CyanogenMod/android_device_google_accessory_demokit" />
-  <remove-project name="CyanogenMod/android_device_sample" />
-  <remove-project name="CyanogenMod/android_device_ti_panda" />
-  <remove-project name="platform/docs/source.android.com" />
-  <remove-project name="CyanogenMod/android_external_chromium" />
-  <remove-project name="CyanogenMod/android_external_dnsmasq" />
-  <remove-project name="CyanogenMod/android_external_e2fsprogs" />
-  <remove-project name="CyanogenMod/android_external_lsof" />
-  <remove-project name="CyanogenMod/android_external_openssl" />
-  <remove-project name="CyanogenMod/android_external_openssh" />
-  <remove-project name="CyanogenMod/android_external_openvpn" />
-  <remove-project name="CyanogenMod/android_external_oprofile" />
-  <remove-project name="CyanogenMod/android_external_ping" />
-  <remove-project name="CyanogenMod/android_external_skia" />
-  <remove-project name="CyanogenMod/android_external_stlport" />
-  <remove-project name="CyanogenMod/android_external_v8" />
-  <remove-project name="CyanogenMod/android_external_webkit" />
-  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
-  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
-  <remove-project name="CyanogenMod/android_frameworks_av" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <remove-project name="CyanogenMod/android_frameworks_ex" />
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <remove-project name="CyanogenMod/android_frameworks_rs" />
-  <remove-project name="CyanogenMod/android_frameworks_wilhelm" />
   <remove-project name="CyanogenMod/android_hardware_msm7k" />
-  <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
-  <remove-project name="CyanogenMod/android_libcore" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <remove-project name="CyanogenMod/android_packages_apps_DeskClock" />
-  <remove-project name="CyanogenMod/android_packages_apps_Email" />
-  <remove-project name="CyanogenMod/android_packages_apps_Exchange" />
-  <remove-project name="CyanogenMod/android_packages_apps_Gallery" />
-  <remove-project name="CyanogenMod/android_packages_apps_Launcher2" />
-  <remove-project name="CyanogenMod/android_packages_apps_LegacyCamera" />
-  <remove-project name="CyanogenMod/android_packages_apps_Mms" />
-  <remove-project name="CyanogenMod/android_packages_apps_Music" />
-  <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
-  <remove-project name="CyanogenMod/android_packages_apps_Protips" />
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_packages_apps_SmartCardService" />
-  <remove-project name="CyanogenMod/android_packages_apps_SpareParts" />
-  <remove-project name="CyanogenMod/android_packages_apps_VideoEditor" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
   <remove-project name="CyanogenMod/android_prebuilt" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
-  <remove-project name="CyanogenMod/android_system_core" />
-  <remove-project name="CyanogenMod/android_system_security" />
-  <remove-project name="platform/tools/motodev" />
-  <remove-project name="CyanogenMod/android_vendor_cm" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
   <remove-project name="CyanogenMod/android_vendor_qcom_opensource_v8" />
-
-  <!-- My forked repositories -->
-  <project path="build" name="jt1134/android_build" revision="myjb-next" remote="private" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
-  <project path="android"			name="jt1134/android"				revision="myjb-next"	remote="private" />
-  <project path="bionic"			name="jt1134/android_bionic"			revision="myjb-next"	remote="private" />
-  <project path="dalvik"			name="jt1134/android_dalvik"			revision="myjb-next"	remote="private" />
-  <project path="external/chromium"		name="jt1134/android_external_chromium"		revision="myjb-next"	remote="private" />
-  <project path="external/dnsmasq"		name="jt1134/android_external_dnsmasq"		revision="myjb-next"	remote="private" />
-  <project path="external/e2fsprogs"		name="jt1134/android_external_e2fsprogs"	revision="myjb-next"	remote="private" />
-  <project path="external/lsof"			name="jt1134/android_external_lsof"		revision="myjb-next"	remote="private" />
-  <project path="external/openssl"		name="jt1134/android_external_openssl"		revision="myjb-next"	remote="private" />
-  <project path="external/openssh"		name="jt1134/android_external_openssh"		revision="myjb-next"	remote="private" />
-  <project path="external/openvpn"		name="jt1134/android_external_openvpn"		revision="myjb-next"	remote="private" />
-  <project path="external/oprofile"		name="jt1134/android_external_oprofile"		revision="myjb-next"	remote="private" />
-  <project path="external/ping"			name="jt1134/android_external_ping"		revision="myjb-next"	remote="private" />
-  <project path="external/skia"			name="jt1134/android_external_skia"		revision="myjb-next"	remote="private" />
-  <project path="external/stlport"		name="jt1134/android_external_stlport"		revision="myjb-next"	remote="private" />
-  <project path="external/v8"			name="jt1134/android_external_v8"		revision="myjb-next"	remote="private" />
-  <project path="external/webkit"		name="jt1134/android_external_webkit"		revision="myjb-next"	remote="private" />
-  <project path="external/wpa_supplicant_8"	name="jt1134/android_external_wpa_supplicant_8"	revision="myjb-next"	remote="private" />
-  <project path="frameworks/av"			name="jt1134/android_frameworks_av"		revision="myjb-next"	remote="private" />
-  <project path="frameworks/base"		name="jt1134/android_frameworks_base"		revision="myjb-next"	remote="private" />
-  <project path="frameworks/ex"			name="jt1134/android_frameworks_ex"		revision="myjb-next"	remote="private" />
-  <project path="frameworks/native"		name="jt1134/android_frameworks_native"		revision="myjb-next"	remote="private" />
-  <project path="frameworks/opt/telephony"	name="jt1134/android_frameworks_opt_telephony"	revision="myjb-next"	remote="private" />
-  <project path="frameworks/rs"			name="jt1134/android_frameworks_rs"		revision="myjb-next"	remote="private" />
-  <project path="frameworks/wilhelm"		name="jt1134/android_frameworks_wilhelm"	revision="myjb-next"	remote="private" />
-  <project path="hardware/ril"			name="jt1134/android_hardware_ril"		revision="myjb-next"	remote="private" />
-  <project path="libcore"			name="jt1134/android_libcore"			revision="myjb-next"	remote="private" />
-  <project path="packages/apps/DeskClock"	name="jt1134/android_packages_apps_DeskClock"	revision="myjb-next"	remote="private" />
-  <project path="packages/apps/Mms"		name="jt1134/android_packages_apps_Mms"		revision="myjb-next"	remote="private" />
-  <project path="packages/apps/Settings"	name="jt1134/android_packages_apps_Settings"	revision="myjb-next"	remote="private" />
-  <project path="system/core"			name="jt1134/android_system_core"		revision="myjb-next"	remote="private" />
-  <project path="system/security"		name="jt1134/android_system_security"		revision="myjb-next"	remote="private" />
-
-  <!-- Devices and their dependent repositories -->
-  <project name="jt1134/shit"					path="scripts"				revision="master"	remote="private" />
-  <project name="jt1134/android_device_samsung_fascinatemtd"	path="device/samsung/fascinatemtd"	revision="myjb-next"	remote="private" />
-  <project name="jt1134/android_device_samsung_aries-common"	path="device/samsung/aries-common"	revision="myjb-next"	remote="private" />
-  <project name="jt1134/android_kernel_samsung_aries"		path="kernel/samsung/aries"		revision="myjb-next"	remote="private" />
-  <project name="jt1134/android_hardware_samsung"		path="hardware/samsung"			revision="myjb-next"	remote="private" />
-  <project name="jt1134/android_vendor_cm"			path="vendor/cm"			revision="myjb-next"	remote="private" />
-  <project name="jt1134/proprietary_vendor_samsung"		path="vendor/samsung"			revision="myjb-next"	remote="private" />
-
-  <project name="jt1134/android_device_samsung_d2-common"		path="device/samsung/d2-common"		revision="cm-10.1"	remote="private"/>
-  <project name="CyanogenMod/android_device_samsung_msm8960-common"	path="device/samsung/msm8960-common" />
-  <project name="CyanogenMod/android_device_samsung_qcom-common"	path="device/samsung/qcom-common" />
-  <project name="jt1134/android_kernel_samsung_d2"			path="kernel/samsung/d2"	revision="express"	remote="private" />
-  <project name="jt1134/android_device_samsung_expressatt"		path="device/samsung/expressatt"	revision="cm-10.1"	remote="private" />
-
-  <!-- Extras -->
-  <project name="jruesga/android_external_unrar"	path="external/unrar"	revision="cm-10.1" />
-  <project name="jruesga/android_external_zip"		path="external/zip"	revision="cm-10.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" remote="aosp" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" remote="aosp" revision="master" />
-
+  <project name="jt1134/android" path="android" remote="private" revision="cm-10.2" />
+  <project name="jt1134/shit" path="scripts" remote="private" revision="master" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-10.2" />
+  <project name="jt1134/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="private" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="cm-10.2" />
+  <project name="CyanogenMod/android_kernel_samsung_d2" path="kernel/samsung/d2" revision="cm-10.2" />
+  <project name="jt1134/android_device_samsung_expressatt" path="device/samsung/expressatt" remote="private" revision="cm-10.2" />
 </manifest>
