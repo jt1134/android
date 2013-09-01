@@ -37,10 +37,10 @@
   <project name="jt1134/shit" path="scripts" remote="private" revision="master" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" revision="cm-10.2" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-10.2" />
-  <project name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="private" revision="cm-10.2" />
+  <project name="jt1134/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="private" revision="cm-10.2" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" revision="cm-10.2" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="cm-10.2" />
-  <project name="CyanogenMod/android_kernel_samsung_d2" path="kernel/samsung/d2" revision="cm-10.2" />
+  <project name="jt1134/android_kernel_samsung_d2" path="kernel/samsung/d2" revision="fork" remote="private" />
   <project name="jt1134/android_device_samsung_expressatt" path="device/samsung/expressatt" remote="private" revision="cm-10.2" />
   <project name="jt1134/android_vendor_cm" path="vendor/cm" remote="private" revision="cm-10.2" />
 </manifest>
