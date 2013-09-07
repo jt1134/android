@@ -22,5 +22,5 @@ if [ ! -d .repo/local_manifests ]; then
 fi
 
 TRY cp android/local_manifest.xml .repo/local_manifests/roomservice.xml
-TRY repo sync
+TRY repo sync -j1
 
