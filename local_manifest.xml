@@ -3,7 +3,6 @@
   <remote fetch="ssh://git@github.com" name="private" />
   <remove-project name="platform/cts" />
   <remove-project name="CyanogenMod/android" />
-  <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <remove-project name="CyanogenMod/android_device_generic_common" />
   <remove-project name="CyanogenMod/android_device_generic_mips" />
@@ -35,8 +34,6 @@
   <remove-project name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project name="jt1134/android" path="android" remote="private" revision="cm-10.2" />
   <project name="jt1134/shit" path="scripts" remote="private" revision="master" />
-  <project name="jt1134/android_bootable_recovery" path="bootable/recovery" remote="private" revision="cm-10.2" />
-  <project name="jt1134/Team-Win-Recovery-Project" path="bootable/twrp" remote="private" revision="twrp2.5" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" revision="cm-10.2" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.2" />
   <project name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="private" revision="cm-10.2" />
