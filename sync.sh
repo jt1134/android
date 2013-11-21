@@ -17,7 +17,7 @@ if [ $? != 0 ]; then
 fi
 
 if [ ! -d .repo/local_manifests ]; then
-  TRY repo init -u git://github.com/CyanogenMod/android.git -b cm-10.2
+  TRY repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
   TRY mkdir -p .repo/local_manifests
 fi
 

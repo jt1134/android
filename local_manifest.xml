@@ -9,37 +9,67 @@
   <remove-project name="CyanogenMod/android_device_generic_x86" />
   <remove-project name="CyanogenMod/android_device_google_accessory_arduino" />
   <remove-project name="CyanogenMod/android_device_google_accessory_demokit" />
-  <remove-project name="CyanogenMod/android_hardware_msm7k" />
   <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_SmartCardService" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
+  <!-- remove all prebuilts, takes up too much space on my SSD
+       move to another HDD, and symlink. no need to sync them -->
   <remove-project name="CyanogenMod/android_prebuilt" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/3.1" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/3.2" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/arm/3.3" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/host/3.3" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/x86/3.3" />
+  <remove-project name="platform/prebuilts/devtools" />
+  <remove-project name="platform/prebuilts/eclipse" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
-  <remove-project name="CyanogenMod/android_vendor_cm" />
-  <remove-project name="CyanogenMod/android_vendor_qcom_opensource_v8" />
-  <project name="jt1134/android" path="android" remote="private" revision="cm-10.2" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" />
+  <remove-project name="platform/prebuilts/misc" />
+  <remove-project name="platform/prebuilts/ndk" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="platform/prebuilts/python/linux-x86/2.7.5" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+  <remove-project name="platform/prebuilts/runtime" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <remove-project name="platform/prebuilts/tools" />
+
+  <project name="jt1134/android" path="android" remote="private" revision="cm-11.0" />
   <project name="jt1134/shit" path="scripts" remote="private" revision="master" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" revision="cm-10.2" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-10.2" />
-  <project name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="private" revision="cm-10.2" />
-  <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" revision="cm-10.2" />
-  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="cm-10.2" />
-  <project name="jt1134/android_kernel_samsung_d2" path="kernel/samsung/d2" revision="fork" remote="private" />
-  <project name="jt1134/android_device_samsung_expressatt" path="device/samsung/expressatt" remote="private" revision="cm-10.2" />
-  <project name="jt1134/android_vendor_cm" path="vendor/cm" remote="private" revision="cm-10.2" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" revision="cm-11.0" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="cm-11.0" />
+  <project name="CyanogenMod/android_kernel_samsung_d2" path="kernel/samsung/d2" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_samsung_expressatt" path="device/samsung/expressatt" revision="cm-11.0" />
 </manifest>
