@@ -72,4 +72,7 @@
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_samsung_d2" path="kernel/samsung/d2" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_samsung_expressatt" path="device/samsung/expressatt" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_samsung_aries-common" path="device/samsung/aries-common" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_samsung_fascinatemtd" path="device/samsung/fascinatemtd" revision="cm-11.0" />
+  <project name="CyanogenMod/android_kernel_samsung_aries" path="kernel/samsung/aries" revision="cm-11.0" />
 </manifest>
