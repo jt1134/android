@@ -65,7 +65,6 @@
   <remove-project name="platform/prebuilts/tools" />
 
   <project name="jt1134/android" path="android" remote="private" revision="cm-11.0" />
-  <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="cm-11.0" />
   <project name="jt1134/shit" path="scripts" remote="private" revision="master" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-11.0" />
