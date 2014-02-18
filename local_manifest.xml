@@ -55,7 +55,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" />
-  <remove-project name="platform/prebuilts/misc" />
+  <remove-project name="CyanogenMod/android_prebuilts_misc" />
   <remove-project name="platform/prebuilts/ndk" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/prebuilts/python/linux-x86/2.7.5" />
@@ -68,7 +68,7 @@
   <project name="jt1134/shit" path="scripts" remote="private" revision="master" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-11.0" />
-  <project name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_samsung_d2lte" path="device/samsung/d2lte" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_samsung_d2" path="kernel/samsung/d2" revision="cm-11.0" />
