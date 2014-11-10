@@ -8,7 +8,7 @@ TRY() { "$@" || DIE "$@"; }
 TRY cd $(dirname $0)"/../"
 
 if [ ! -d .repo/local_manifests ]; then
-  TRY repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
+  TRY repo init -u git://github.com/CyanogenMod/android.git -b cm-12.0
   TRY mkdir -p .repo/local_manifests
 fi
 
