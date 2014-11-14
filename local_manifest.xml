@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="ssh://git@github.com" name="private" />
   <remove-project name="CyanogenMod/android" />
+  <remove-project name="CyanogenMod/android_bionic" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
@@ -10,6 +11,7 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_system_core" />
   <project name="jt1134/android" path="android" remote="private" revision="cm-12.0" />
+  <project name="jt1134/android_bionic" path="bionic" remote="private" revision="cm-12.0" />
   <project name="jt1134/android_frameworks_av" path="frameworks/av" remote="private" revision="cm-12.0" />
   <project name="jt1134/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="private" revision="cm-12.0" />
   <project name="jt1134/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" groups="qcom,qcom_audio" remote="private" revision="cm-12.0-caf-8960" />
